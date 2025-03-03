@@ -1,7 +1,7 @@
-import leaderboardReducer from "../reducer"
-import { SEARCH_USER } from "../types"
-import { User } from "../../types/user"
-import userData from "../../data/users.json"
+import leaderboardReducer from "../redux/reducer"
+import { SEARCH_USER } from "../redux/types"
+import { User } from "../types/user"
+import userData from "../data/users.json"
 
 const mockUsers: User[] = Object.values(userData)
 
